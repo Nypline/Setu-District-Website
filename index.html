@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="./main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <nav>
+        <div class="left-nav">
+            <a href="#home">SETU</a>
+        </div>
+        <div class="right-nav">
+            <a href="#tour" style="white-space: nowrap;">Tempat Wisata</a>
+            <a href="#inofation">Inofation</a>
+            <a href="#achivement">Achivement</a>
+            <a href="#main-video">Video</a>
+            <a href="#form">Form</a>
+            <img src="image/menu-list-right.png" class="hamburger" alt="" id="menu"
+                onclick="changeImage(); myFunction()" style="cursor: pointer;">
+        </div>
+
+    </nav>
+
+    <main>
+        <div style="display: flex;
+        justify-content: center;
+        align-items: center;">
+            <div id="hamburger-div" style="z-index: 100;">
+                <div>
+                    <a href="#tour">Tempat Wisata</a><a href="#inofation">Inofation</a><a
+                        href="#achivement">Achivement</a>
+                    <a href="#main-video">Video</a><a href="#form">Form</a>
+                </div>
+            </div>
+        </div>
+        <div class="home" id="home">
+            <div class="left-main">
+                <h1>Kecamatan Setu</h1>
+                <p>Kecamatan Setu terletak di Kabupaten Bekasi, Jawa Barat.
+                    Wilayah ini terdiri dari 11 desa dengan luas sekitar 51,62 km². Kecamatan
+                    ini berperan penting dalam administrasi Kabupaten Bekasi dan memiliki sejumlah fasilitas
+                    publik yang terus berkembang untuk memenuhi kebutuhan penduduknya.
+                </p>
+            </div>
+            <div class="right-main">
+                <div style="display: flex; justify-content: center;
+                align-items: center;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63444.35867459762!2d106.99363314021697!3d-6.358775369507291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6991394a699c01%3A0xbb889034f6fa0a96!2sSetu%2C%20Bekasi%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1718005967878!5m2!1sen!2sid"
+                        width="92%" height="92%" style="border-radius: 20px; border: none;" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="tour" id="tour">
+            <h1>Tempat Wisata</h1>
+            <div class="container-card">
+                <div class="card">
+                    <img src="image/image-tour-1.png" alt="" width="360px" style="border-radius: 20px;">
+                    <p>Kampoeng Kita</p>
+                </div>
+                <div class="card">
+                    <img src="image/iamge-tour-2.png" alt="" width="360px" style="border-radius: 20px;">
+                    <p>grand splash waterpark setu</p>
+                </div>
+                <div class="card">
+                    <img src="image/image-tour-3.png" alt="" width="360px" style="border-radius: 20px;">
+                    <p>alun alun eduforest setu</p>
+                </div>
+            </div>
+        </div>
+        <div class="inofation" id="inofation">
+            <h1>Inofation</h1>
+            <div class="inner-inofation">
+                <img src="image/image-inofation.png" alt="" width="40%" class="image-1">
+                <div class="right-inovation">
+                    <p>Kecamatan Setu di Kabupaten Bekasi
+                        telah melakukan berbagai inovasi untuk meningkatkan
+                        pelayanan kepada masyarakat dan pengelolaan
+                        wilayahnya. Berikut adalah beberapa contoh inovasi yang
+                        mungkin telah atau bisa dilakukan oleh Kecamatan Setu:</p>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                    style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 36px; text-align: left; ">
+                                    1.PemerintahanDigital(eGovernment):
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Portal Layanan Publik: Situs web atau aplikasi yang menyediakan akses ke berbagai
+                                    layanan pemerintah, seperti pendaftaran pajak, permohonan izin, pembayaran tagihan,
+                                    dan layanan kesehatan.
+                                    Self-Service: Fasilitas yang memungkinkan warga untuk melakukan berbagai transaksi
+                                    atau permintaan informasi secara mandiri, tanpa perlu datang ke kantor pemerintah.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                    style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 36px; text-align: left; ">
+                                    2.Pelayanan Terpadu Satu Pintu (PTSP):
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Pelayanan Terpadu Satu Pintu (PTSP) adalah sebuah konsep yang diterapkan oleh
+                                    pemerintah untuk mengintegrasikan berbagai layanan publik dalam satu tempat atau
+                                    platform, baik secara fisik maupun daring. Tujuannya adalah untuk memudahkan
+                                    masyarakat dalam mengakses layanan pemerintah, mengurangi birokrasi, dan
+                                    meningkatkan efisiensi serta transparansi dalam proses pelayanan. Berikut adalah
+                                    beberapa karakteristik utama dari PTSP
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                    style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 36px; text-align: left; ">
+                                    3.Inovasi di Bidang Kesehatan:
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Inovasi di bidang kesehatan merujuk pada pengembangan dan penerapan ide, teknologi,
+                                    metode, atau produk baru yang bertujuan untuk meningkatkan layanan kesehatan,
+                                    mendiagnosis dan mengobati penyakit, serta meningkatkan kesejahteraan masyarakat
+                                    secara keseluruhan. Inovasi ini dapat mencakup berbagai aspek, mulai dari teknologi
+                                    medis hingga perubahan dalam sistem manajemen dan layanan kesehatan. Beberapa contoh
+                                    inovasi di bidang kesehatan antara lain:
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="achivement" id="achivement">
+            <h1>Achivement</h1>
+            <div class="inner-inofation inner-achivement">
+
+                <div class="right-inovation">
+                    <p>kecamatan setu telah menerima berbagai penghargaan,
+                        termasuk prestasi di tingkat provinsi dan kabupaten.</p>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne"
+                                    style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 36px; text-align: left; ">
+                                    Penghargaan : di Bidang Kesehatan
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Penghargaan di bidang kesehatan adalah pengakuan resmi yang diberikan kepada
+                                    individu, organisasi, atau institusi yang telah memberikan kontribusi luar biasa
+                                    dalam meningkatkan layanan kesehatan, melakukan penelitian inovatif, atau
+                                    menunjukkan dedikasi dan keunggulan dalam profesi kesehatan. Penghargaan ini
+                                    bertujuan untuk menghargai pencapaian mereka, mendorong inovasi lebih lanjut, dan
+                                    menginspirasi orang lain untuk berkontribusi dalam sektor kesehatan. Beberapa contoh
+                                    penghargaan di bidang kesehatan antara lain
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo"
+                                    style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 36px; text-align: left; ">
+                                    Penghargaan : di Bidang Inovasi Pelayanan Publik
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Penghargaan di bidang inovasi pelayanan publik adalah pengakuan yang diberikan
+                                    kepada individu, organisasi, atau institusi pemerintah yang telah mengembangkan dan
+                                    menerapkan solusi inovatif untuk meningkatkan kualitas, efisiensi, dan efektivitas
+                                    layanan publik. Penghargaan ini bertujuan untuk mengapresiasi inisiatif yang
+                                    memberikan dampak positif bagi masyarakat, mendorong inovasi lebih lanjut, dan
+                                    menyebarkan praktik terbaik di sektor publik. Beberapa contoh penghargaan di bidang
+                                    inovasi pelayanan publik antara lain
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree"
+                                    style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 36px; text-align: left; ">
+                                    Penghargaan : dalam Bidang Kinerja Pemerintahan
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Penghargaan dalam bidang kinerja pemerintahan adalah bentuk pengakuan yang diberikan
+                                    kepada pemerintah daerah, lembaga, atau individu yang telah menunjukkan kinerja luar
+                                    biasa dalam berbagai aspek pemerintahan. Penghargaan ini bertujuan untuk menghargai
+                                    upaya, inovasi, dan keberhasilan dalam menjalankan tugas-tugas pemerintahan,
+                                    meningkatkan transparansi, efisiensi, serta pelayanan publik. Berikut adalah
+                                    beberapa contoh penghargaan dalam bidang kinerja pemerintahan:
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="image/image-achivement.png" alt="" width="40%" class="image-2">
+            </div>
+
+        </div>
+        <div class="main-video" id="main-video">
+            <div>
+                <iframe src="https://drive.google.com/file/d/17gaKfuq6aLxC9Mcjr7LvQUJPYdRJuZx7/preview" width="100%"
+                    height="100%" style="border-radius: 20px;"></iframe>
+            </div>
+        </div>
+        <div style="display: flex;justify-content: center;align-items: center;" id="form">
+            <div class="form-1">
+                <form class="left-card">
+                    <h1>Bantu saya membangun Kec.Setu
+                        agar lebih baik</h1>
+                    <p>isi saran dan keritik anda
+                        pada kolom di bawah ini</p>
+                    <input type="text" placeholder="Nama" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Saran dan keritik" style="height: 140px;" required>
+                    <button>Submit</button>
+                </form>
+                <div class="right-card">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <section>
+            <div>
+                <a href="https://www.youtube.com/@kecamatansetu871" target="_blank">
+                    <img src="image/icons8-youtube-48.png" alt="YouTube" width="60px" style="cursor: pointer;">
+                </a><a href="https://www.tiktok.com/@panwaslukec.setubekasi" target="_blank">
+                    <img src="image/icons8-tik-tok-80.png" alt="YouTube" width="60px" style="cursor: pointer;">
+                </a><a href="https://www.instagram.com/kec.setubekasi/" target="_blank">
+                    <img src="image/icons8-instagram-48.png" alt="Instagram" style="cursor: pointer;">
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+</body>
+
+</html>
